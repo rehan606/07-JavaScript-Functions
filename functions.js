@@ -107,6 +107,34 @@ const oddNumber = isOdd(15);
 console.log(oddNumber,)
 
 //Output: True
+//----------------------Print Length Of String using Function -
+function stringLength(str){
+    const size = str.length;
+    console.log(`string is ${str} and Size is ${size}`)
+}
+stringLength("Dhaka")
+
+//Output: string is "Dhaka" and Size = 5  
+
+//----------------------Even Or Odd Number Checking -----------
+
+function EvenOrOdd(str){
+    const size = str.length;
+    console.log(str, size);
+
+    if(size % 2 === 0){
+        console.log("Even Number")
+        return true
+    } else{
+        return false
+    }
+
+}
+const answer = EvenOrOdd("Rehan khan")
+console.log("Answer is:", answer)
+
+//Output: Answer is: true
+
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------

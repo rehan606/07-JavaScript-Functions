@@ -78,8 +78,35 @@ console.log("Math Result is:", outputResult)
 
 //Output: Math Result is: 450
 
-//---------------------- --------------------------------------
-//---------------------- --------------------------------------
+//----------------------Conditional Function ------------------
+//Check Even Number:
+
+function isEven(number){
+    if(number % 2 == 0){
+        console.log('is This Number is Even ?')
+        return true
+    } else {
+        console.log("this number is odd ")
+        return false
+    }
+    
+}
+const checkEven = isEven(50);
+console.log(checkEven)
+
+//Output: True
+
+//----------------------Shortcut Conditional Function ---------
+function isOdd(number){
+    if(number % 2 !==0){
+        return true;
+    }
+    return false
+}
+const oddNumber = isOdd(15);
+console.log(oddNumber,)
+
+//Output: True
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------

@@ -135,7 +135,22 @@ console.log("Answer is:", answer)
 
 //Output: Answer is: true
 
-//---------------------- --------------------------------------
+//----------------------Boolean Condition Using Function ------
+
+function doubleOrTriple(number, double){
+    if(double === true){
+        const result = number * 2
+        return result
+    } else{
+        const result = number * 3
+        return result
+    }
+}
+const multiple = doubleOrTriple(20 , true)
+console.log('Result is:', multiple)
+
+//Output: Result is: 40
+
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------

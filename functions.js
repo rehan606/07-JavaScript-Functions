@@ -162,6 +162,26 @@ console.log('Array is:', output)
 
 //Output: Array is: 5
 
+
+//----------------------Sum Of Number in Array ----------------
+
+function someOfNumber(numbers){
+    let sum = 0;
+    for(const number of numbers){
+        console.log(number);
+        sum = sum + number;
+    }
+    return sum;
+}
+
+const numArray = [1,2,3,4,5]
+const totalArraySum = someOfNumber(numArray);
+console.log("Array Some is:", totalArraySum);
+
+//Output: Array Some is: 15
+
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 

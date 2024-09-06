@@ -1,0 +1,91 @@
+/*************************
+ * *********Function******
+ * **********************/
+
+//What is Javascript Function ?
+//Answer: Function is A Block of Code.
+
+//----------------------function Declaration: -----------------
+
+
+function sendMessage(msg){
+    console.log(msg);
+}
+sendMessage('Rehan')
+
+// Function: This is a Function Keyword
+// sendMessage: This is a Function Name
+// (msg): This is a Function Parameter
+// console.log(msg): This is a Function Statement
+// sendMessage("Rehan"): This is a Function Aurgoments
+
+//----------------------Return Method Function Example --------
+
+function sum (x,y){
+    const result = x + y;
+    return result
+}
+const total = sum(20,25);
+console.log("Total Sum Is:", total)
+// document.write("Total Sum Is:", total)
+
+// Output : Total Sum Is: 45
+
+
+//---------------------- Normal Method ------------------------
+
+function multiply (number1, number2){
+    const sum = number1 * number2
+    console.log("Total Multiplication is:", sum)
+}
+multiply(20,30)
+
+//Output is: 600
+
+//----------------------Difference between Father and child age 
+
+function difference(number1, number2){
+    const differ = number1 - number2;
+    console.log(`${number1} - ${number2} = ${differ}`)
+}
+const fatherAge = 60;
+const childAge = 25;
+const result = difference(fatherAge, childAge)
+
+//Output: 60 - 25 = 35
+
+//----------------------Shortcut USE Function -----------------
+function sum(number1 , number2){
+    return number1 + number2
+}
+const totalSum = sum(30, 50)
+console.log('Total sum is:', totalSum)
+
+//Output: Total sum is: 80
+
+//----------------------Function Using Math -------------------
+
+function math(number1, number2){
+    const sum = number1 + number2;
+    const substrac = number1 - number2;
+    const multiply = sum * substrac;
+    const result = multiply / 2;
+
+    return result
+}
+const outputResult = math(50, 40);
+console.log("Math Result is:", outputResult)
+
+//Output: Math Result is: 450
+
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
+//---------------------- --------------------------------------
+
+
+
+
+

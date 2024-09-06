@@ -151,7 +151,17 @@ console.log('Result is:', multiple)
 
 //Output: Result is: 40
 
-//---------------------- --------------------------------------
+//----------------------Array Using Function ------------------
+
+function numberOfElement(number){
+    const len = number.length;
+    return len
+}
+const output = numberOfElement([ 1,2,3,4,5])
+console.log('Array is:', output)
+
+//Output: Array is: 5
+
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 

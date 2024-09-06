@@ -187,6 +187,7 @@ function allEvenNumber(numbers){
     for(number of numbers){
         if(number % 2 ===0){
             even.push(number)
+            
         }
     }
     return even
@@ -197,7 +198,24 @@ const evenNumbers = allEvenNumber(numArrays)
 console.log('All Even Number is:', evenNumbers)
 
 //Output: All Even Number is: [ 2, 4, 6, 8 ]
-//---------------------- --------------------------------------
+
+//----------------------Sum Of Even Number --------------------
+
+function sumOfEven(numbers){
+    let sum = 0;
+    for(const number of numbers){
+        if(number % 2 === 0){
+            sum = sum + number
+        }
+    }
+    return sum
+}
+const numArrayis = [1,2,3,4,5,6,7,8]
+const sumevents = sumOfEven(numArrayis)
+console.log( 'Total Sum is:', sumevents)
+
+//Output: Total Sum is: 20
+
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 

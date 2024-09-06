@@ -168,7 +168,7 @@ console.log('Array is:', output)
 function someOfNumber(numbers){
     let sum = 0;
     for(const number of numbers){
-        console.log(number);
+        // console.log(number);
         sum = sum + number;
     }
     return sum;
@@ -180,7 +180,23 @@ console.log("Array Some is:", totalArraySum);
 
 //Output: Array Some is: 15
 
-//---------------------- --------------------------------------
+//----------------------Return All the Even Numbers of an Array 
+
+function allEvenNumber(numbers){
+    const even = [];
+    for(number of numbers){
+        if(number % 2 ===0){
+            even.push(number)
+        }
+    }
+    return even
+}
+
+const numArrays = [1,2,3,4,5,,6,7,8,9]
+const evenNumbers = allEvenNumber(numArrays)
+console.log('All Even Number is:', evenNumbers)
+
+//Output: All Even Number is: [ 2, 4, 6, 8 ]
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
 //---------------------- --------------------------------------
